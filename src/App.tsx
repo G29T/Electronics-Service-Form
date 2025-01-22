@@ -1,14 +1,13 @@
 import React from 'react';
-import './App.css';
-import './index.css';
+import './index.css'; 
 import ServiceForm from './service-form/ServiceForm';
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <ServiceForm />
-    </div>
-  );
+function App() {
+    return (
+        <div className="App bg-gray-100 min-h-screen flex items-center justify-center">
+            <ServiceForm />
+        </div>
+    );
 }
 
 export default App;
